@@ -10,7 +10,7 @@ export default function Home() {
         />
         <h1 className="text-4xl font-bold">波士顿私立学校申请服务</h1>
         <p className="text-lg">
-          为大波士顿地区华人家庭提供个性化支持，专注于幼儿园至小学二年级的私立学校申请流程，包括择校建议、面试准备、申请材料和助学金申请等全方位服务。
+          为大波士顿地区华人家庭提供个性化支持,专注于学前班(PreK)至小学二年级的私立学校申请流程，包括择校建议、面试准备、申请材料和助学金申请等全方位服务。
         </p>
         <div className="bg-yellow-50 p-6 rounded-2xl shadow space-y-4">
           <h2 className="text-2xl font-semibold">服务套餐</h2>
