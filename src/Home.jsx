@@ -16,32 +16,36 @@ export default function Home() {
           <h2 className="text-2xl font-semibold">服务套餐</h2>
           <div className="grid md:grid-cols-3 gap-6 text-left">
             <div className="bg-white border p-4 rounded-2xl shadow">
-              <h3 className="text-xl font-bold">基础套餐</h3>
+            <h3 className="text-xl font-bold">基础套餐</h3>
+            <p className="text-sm text-gray-600 mb-2">适合：刚开始了解私立学校、需要方向感的家庭</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>两次一小时咨询</li>
-                <li>一个月内邮件答疑</li>
-                <li>申请时间表与指导建议</li>
-                <li>个人陈述或家庭介绍修改</li>
+                <li>一次咨询：了解孩子情况与家庭需求</li>
+                <li>推荐目标学校清单</li>
+                <li>分析不同学校特色与风格</li>
               </ul>
-              <p className="mt-4 font-semibold">$400</p>
+              <p className="mt-4 font-semibold line-through">$400</p>
+              <p className="mt-1 text-green-600 font-bold">首阶段推广期间免费！</p>
             </div>
             <div className="bg-white border p-4 rounded-2xl shadow">
-              <h3 className="text-xl font-bold">申请套餐</h3>
+              <h3 className="text-xl font-bold">参观&申请套餐</h3>
+              <p className="text-sm text-gray-600 mb-2">适合：需要陪同参观学校并正式启动申请流程的家庭</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>完整申请规划</li>
-                <li>材料与简历修改</li>
-                <li>家长和孩子面试辅导</li>
+                <li>陪同最多2场学校开放日或校园参观</li>
                 <li>择校分析与建议</li>
+                <li>完整申请规划</li>
+                <li>材料(简历/家庭介绍/个人陈述)修改</li>
+                <li>家长和孩子面试辅导</li>
               </ul>
               <p className="mt-4 font-semibold">$800</p>
             </div>
             <div className="bg-white border p-4 rounded-2xl shadow">
               <h3 className="text-xl font-bold">全程陪伴套餐</h3>
+              <p className="text-sm text-gray-600 mb-2">适合：希望全流程无忧、最大化助学金结果的家庭</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
                 <li>包含基础与申请套餐全部内容</li>
                 <li>助学金申请支持</li>
                 <li>整个申请季节全程答疑</li>
-                <li>等候名单沟通与申诉信指导</li>
+                <li>等候名单沟通与助学金申诉信指导</li>
               </ul>
               <p className="mt-4 font-semibold">$1500</p>
             </div>
@@ -52,13 +56,13 @@ export default function Home() {
           <h2 className="text-2xl font-semibold">助学金申请（可选）</h2>
           <ul className="text-left list-disc list-inside space-y-2">
             <li>免费15分钟电话了解家庭情况与目标</li>
-            <li>详细讲解Clarity、SSS或FACTS助学金系统</li>
+            <li>详细讲解助学金系统</li>
             <li>优化财务资料展现方式</li>
             <li>修改申诉信与支持材料</li>
             <li><strong>无需预付费</strong> — 获得资助后按10%收取佣金</li>
           </ul>
         </div>
-        
+
         <div className="bg-white p-6 rounded-2xl shadow space-y-4">
           <h2 className="text-2xl font-semibold">添加我的微信</h2>
           <p>扫描二维码，通过微信添加我为好友：</p>
