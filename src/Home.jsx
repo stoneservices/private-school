@@ -10,7 +10,7 @@ export default function Home() {
         />
         <h1 className="text-4xl font-bold">波士顿私立学校申请服务</h1>
         <p className="text-lg">
-          为大波士顿地区华人家庭提供个性化支持,专注于学前班(PreK)至小学二年级的私立学校申请流程，包括择校建议、面试准备、申请材料和助学金申请等全方位服务。
+        作为一位亲身经历多所波士顿名校申请与助学金流程的家长，了解每一步的重点和家长们的困惑。为大波士顿地区华人家庭提供个性化支持,专注于学前班(PreK)至小学二年级的私立学校申请流程，包括择校建议、面试准备、申请材料和助学金申请等全方位服务。
         </p>
         <div className="bg-yellow-50 p-6 rounded-2xl shadow space-y-4">
           <h2 className="text-2xl font-semibold">服务套餐</h2>
@@ -54,6 +54,12 @@ export default function Home() {
 
         <div className="bg-gray-100 p-6 rounded-2xl shadow space-y-4">
           <h2 className="text-2xl font-semibold">助学金申请（可选）</h2>
+          <div class="mt-4 text-left">
+          <p class="text-base font-medium text-gray-800">
+            曾成功争取多所学校的助学金，总额超过 <strong>$30,000</strong>，平均学费节省 <strong>25%</strong>。
+            熟悉申请系统和策略，能有效提升家庭的申请成功率。
+          </p>
+        </div>
           <ul className="text-left list-disc list-inside space-y-2">
             <li>免费15分钟电话了解家庭情况与目标</li>
             <li>详细讲解助学金系统</li>
