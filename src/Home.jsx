@@ -43,7 +43,7 @@ export default function Home() {
               <p className="text-sm text-gray-600 mb-2">适合：希望全流程无忧、最大化助学金结果的家庭</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
                 <li>包含基础与申请套餐全部内容</li>
-                <li>助学金申请支持</li>
+                <li>助学金申请支持(仅在成功获奖后收取佣金)</li>
                 <li>整个申请季节全程答疑</li>
                 <li>等候名单沟通与助学金申诉信指导</li>
               </ul>
